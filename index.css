@@ -1,0 +1,534 @@
+body{
+    overflow-x: hidden;
+}
+.menu_bar{
+    margin-top: -71px;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+.menubar_list{
+    color: #105652;
+    font-family: Bahnschrift;
+    margin: -63px 20px 20px 826px;
+    word-spacing: 34px;
+    /* cursor: pointer; */
+}
+
+.home_one{
+    text-decoration: none;
+    color: black;
+}
+
+.home_one:hover{
+   color: #FCA738;
+}
+
+.about_one{
+    text-decoration: none;
+    color: black;
+}
+.about_one:hover{
+    color: #FCA738;
+}
+
+.portfolio_one{
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio_one:hover{
+    color: #FCA738;
+}
+
+.resume_one{
+    text-decoration: none;
+    color: black;
+}
+
+.resume_one:hover{
+    color: #FCA738;
+}
+
+.contact_one{
+    text-decoration: none;
+    color: black;
+}
+
+.contact_one:hover{
+    color: #FCA738;
+}
+
+.top_container{
+    background-color: #105652;
+    margin-top: 24px;
+    height: 396px;
+    width: 1300px;
+    margin-left: 89px;
+}
+
+.my_name{
+    margin-left: 73px;
+        padding-top: 60px;
+        color: #FBD148;
+        font-weight: 500;
+        letter-spacing: 5px;
+}
+
+.professional{
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: white;
+    margin-left: 71px;
+    padding-top: -41px;
+    margin-top: -15px;
+}
+.name{
+    color: #105652;
+    font-family: Bahnschrift;
+    background-color: #FBF3E4;
+    padding: 16px 20px 20px 76px;
+    margin: 71px 114px 20px 89px;
+}
+.menubar{
+    color: #105652;
+    font-family: Bahnschrift;
+    margin: -63px 20px 20px 864px;
+    word-spacing: 34px;
+    cursor: pointer;
+    transition: 0.3s; 
+    position: sticky;
+    top: 0px;
+    z-index: 5px;
+}
+   .menubar:hover{
+    color: #FCA738;
+}
+
+.waves{
+    margin-top: 28px;
+    top: -277px;
+    position: relative;
+    /* margin-top: -194
+px
+; */
+    width: 1300px;
+    height: 154px;
+}
+
+.men{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 889px;
+    top: -65px;
+    z-index: 2;
+}
+
+.ready{
+    margin-left: 71px;
+    color: ghostwhite;
+    margin-top: 50px;
+    font-size: 11px;
+    font-family: system-ui;
+    letter-spacing: 2px;
+}
+
+.btn{
+    position: relative;
+    color: white;
+    background-color: #09BCAB;
+    border: 2px solid #09BCAB;
+    border-radius: 6px;
+    height: 2px;
+    width: 116px;
+    padding: 8px 20px 20px 20px;
+    cursor: pointer;
+    box-shadow: 0px 5px 16px #09BCAB;
+    top: -458px;
+    right: -67px;
+}
+
+.btn1{
+    color: white;
+    background-color: #FCA738; 
+    border: 2px solid #FCA738;
+    border-radius: 6px;
+    height: 2px;
+    width: 116px;
+    padding: 8px 20px 20px 20px; 
+    cursor: pointer;
+    box-shadow: 0px 5px 16px #FCA738;
+    top: -458px;
+    right: -93px;
+    position: relative;
+}
+
+.main_container{
+    background-color: whitesmoke;
+    margin-top: 24px;
+    height: 2500px;
+    width: 1300px;
+    margin-left: 89px;
+}
+
+.inner_cont{
+    border-radius: 20px;
+    position: relative;
+    height: 500px;
+    width: 1146px;
+    background-color: white;
+    margin-left: 78px;
+    top: 25px;
+    box-shadow: 10px 10px 40px lightgrey;
+}
+.me{
+    position: relative;
+    top: 34px;
+    left: 700px;
+    font-size: 31px;
+    color: #105652;
+}
+
+.radius{
+    background-color: #FCA738;
+    /* color: yellow; */
+    width: 153px;
+    height: -65px;
+    top: 12px;
+    border: 2px solid #FCA738;
+    POSITION: relative;
+    left: 700px;
+}
+
+.paragraph{
+    position: relative;
+    left: 698px;
+    top: 11px;
+    opacity: 1;
+    line-height: 25px;
+    color: #105652;
+}
+
+.myself{
+    position: relative;
+    top: -326px;
+    left: 85px;
+    height: 500px;
+}
+
+.child_container{
+    border-radius: 15px;
+    position: relative;
+    height: 100px;
+    width: 423px;
+    background-color: white;
+    top: -496px;
+    left: 698px;
+    box-shadow: 10px 8px 43px lightgrey;
+}
+
+.skill{
+    font-size: 16px;
+    position: relative;
+    top: 7px;
+    left: 17px;
+    color: #105652;
+}
+
+hr{
+        width: 179px;
+        position: relative;
+        left: 107px;
+        top: -16px;
+        /* opacity: 0; */
+        background-color: antiquewhite;
+        filter: 29;
+        filter: blur(2px);
+}
+.fa-html5{
+position: relative;
+    left: 19px;
+    bottom: 30px;
+}
+.fa-css3{
+position: relative;
+    left: 41px;
+    bottom: 26px;
+    color: blue;
+    font-size: 53px;
+}
+
+.java{
+    height: 70px;
+    width: 46px;
+    position: relative;
+    left: -16px;
+    bottom: 25px;
+}
+
+.my_portfolio{
+    text-align: center;
+    color: #105652;
+    position: relative;
+    top: 35px;
+    font-family: ui-monospace;
+}
+
+.bb{
+    border-bottom: 4px solid #FCA738;
+    width: 194px;
+    margin: 40px 0px 20px 564px;
+}
+
+.fa-react{
+    position: relative;
+    left: 111px;
+    bottom: 28px;
+    font-size: 56px;
+    color: aqua;
+}
+
+.todo_web{
+    height: 220px;
+    width: 330px;
+    position: relative;
+    left: 499px;
+    box-shadow: 2px 10px 7px grey;
+}
+
+.backtracking{
+    position: relative;
+    height: 220px;
+    width: 330px;
+    top: -223px;
+    left: 77px;
+    box-shadow: 1px 10px 7px grey;
+}
+
+.todo_mob{
+    height: 220px;
+    width: 330px;
+    position: relative;
+    top: -446px;
+    left: 911px;
+    box-shadow: 2px 10px 7px grey;
+}
+
+._resume{
+    position: relative;
+    top: -400px;
+    text-align: center;
+    color: #105652;
+}
+
+.cc{
+    border-bottom: 6px solid #FCA738;
+    width: 122px;
+    position: relative;
+    bottom: 418px;
+    left: 595px;
+}
+
+.work{
+    position: relative;
+    bottom: 366px;
+    color: #015652;
+    left: 80px;
+}
+
+.ee{
+    border-bottom: 1px solid gray;
+    position: relative;
+    top: -376px;
+    width: 679px;
+    left: 76px;
+}
+
+.small{
+    border: 2px solid #09BEAD;
+    height: 12px;
+    width: 12px;
+    background-color: #09BEAD;
+    position: relative;
+    bottom: 348px;
+    left: 86px;
+    border-radius: 50%;
+}
+
+.job{
+    position: relative;
+    bottom: 386px;
+    left: 125px;
+    letter-spacing: 1px;
+    color: #105652;
+}
+
+.company{
+    position: relative;
+    bottom: 398px;
+    left: 125px;
+    color: #105652;
+}
+
+.xy{
+    border-left: 2px solid #09BEAD;
+    height: 51px;
+    position: relative;
+    bottom: 451px;
+    left: 93px;
+}
+
+.yz{
+    border: 1px solid #FCA738;
+    position: relative;
+    bottom: 509px;
+    left: 663px;
+    height: 22px;
+    border-radius: 28px;
+    background-color: #FCA738;
+    width: 98px;
+}
+
+.zzzz{
+    position: relative;
+    bottom: 553px;
+    left: 674px;
+    color: white;
+    font-size: 11px;
+}
+
+
+.wave{
+    width: 100px;
+    margin: 20px 20px 20px 20px;
+}
+.box{
+    color: #F7F7F7;
+    height: 518px;
+    width: 1293px;
+    margin: -71px 20px 20px 91px;
+}
+.box1{
+    background-color: #105652;
+    height: 351px;
+    width: 1301px;
+    margin: -464px 20px 20px 89px;
+}
+.img1{
+    margin: -517px 20px 20px 924px;
+    height: 325px;
+    width: 336px;
+    padding: 20px;
+}
+.A{
+    color: #FCA738;
+    font-family: Bahnschrift;
+    margin: -322px 20px 20px 168px;
+    font-weight: 300;
+}
+.B{
+    color: white;
+    font-family: Bahnschrift;
+    font-weight: 450;
+    margin: -11px 20px 20px 170px;
+}
+.C{
+    color: white;
+    font-family: Bahnschrift;
+    margin: 55px 20px 20px 171px;
+    font-weight: 100;
+}
+
+
+.Box{
+    background-color: #FFFFFF;
+    height: 539px;
+    width: 1233px;
+    margin: 75px 20px 20px 124px;
+    box-shadow: 1px 1px 15px lightgray;
+    border-radius: 2px;
+}
+.about{
+    font-family: Bahnschrift;
+    color: #297F87;
+    margin: -520px 20px 20px 755px;
+}
+.aa{
+    border-bottom: 4px solid #FCA738;
+    width: 145px;
+    margin: -17px 0px 20px 755px;
+}
+.para{
+    color: #297F87;
+    font-size: 18px;
+    font-family: Bahnschrift;
+    margin: 20px 20px 20px 758px;
+}
+.Box1{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin: 66px 20px 20px 756px;
+    height: 122px;
+    width: 575px;
+    box-shadow: 1px 1px 15px lightgray;
+}
+.para1{
+    color: #297F87;
+    font-size: 18px;
+    font-family: Bahnschrift;
+    margin: -134px 20px 20px 921px;
+}
+.img2{
+    height: 355px;
+    width: 413px;
+    margin: -315px 20px 20px 173px;
+}
+.fa{
+    margin: -98px 20px 20px 176px;
+    letter-spacing: 38px;
+}
+.fa-html5{
+    font-size: 62px;
+    color: red;
+}
+.fa-css3-alt{
+    font-size: 62px;
+    color: blue;
+}
+.fa-js-square{
+    font-size: 62px;
+    color: yellow;
+}
+.fa-github{
+    font-size: 62px;
+    color: black;   
+}
+
+.aaa{
+    border-bottom: 4px solid #FCA738;
+    width: 194px;
+    margin: -26px 0px 20px 656px;
+}
+.projects{
+    letter-spacing: 121px;
+}
+.proj1{
+    height: 200px;
+    width: 336px;
+    margin-left: 44px;
+    border-radius: 2px;
+}
+.proj2{
+    height: 200px;
+    width: 336px;
+    margin-left: 44px;
+    border-radius: 2px;
+}
+.proj3{
+    height: 200px;
+    width: 336px;
+    margin-left: 44px;
+    border-radius: 2px;
+}
